@@ -18,7 +18,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Great+Vibes&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <script>
         tailwind.config = {
@@ -31,6 +31,7 @@
                     fontFamily: {
                         script: ['"Great Vibes"', 'cursive'],
                         serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+                        montserrat: ['"Montserrat"', 'sans-serif'],
                     },
                     letterSpacing: {
                         'widest-xl': '0.2em',
@@ -233,9 +234,9 @@
                 
             </h3>
             <div id="hero-names" class="hero-reveal hero-reveal-immediate flex flex-col items-center justify-center py-2">
-                <h1 class="font-script text-[3rem] sm:text-[4rem] md:text-[5.5rem] leading-[1.2] capitalize">Asif</h1>
-                <span class="font-script text-xl md:text-4xl leading-none my-1">&</span>
-                <h1 class="font-script text-[3rem] sm:text-[4rem] md:text-[5.5rem] leading-[1.2] capitalize">Meraj</h1>
+                <h1 class="font-montserrat font-medium text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] leading-[1.2] capitalize">Asif</h1>
+                <span class="font-montserrat font-medium text-xl md:text-3xl leading-none my-1">&</span>
+                <h1 class="font-montserrat font-medium text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] leading-[1.2] capitalize">Meraj</h1>
             </div>
             <p
                 class="hero-reveal text-[7px] sm:text-[10px] md:text-[11px] leading-loose md:leading-[2.5] tracking-wider sm:tracking-widest uppercase font-medium w-full max-w-[52%] sm:max-w-[75%] md:max-w-[80%] mt-3 md:mt-6 mx-auto">
@@ -249,7 +250,7 @@
         </section>
     </div>
 
-    <!-- BLESSINGS SECTION (Formerly Parents) -->
+    <!-- BLESSINGS SECTION -->
     <section id="parents-section"
         class="relative z-10 flex flex-col items-center justify-center text-center px-4 py-16 md:py-24 w-full mx-auto overflow-hidden">
         <div class="flex flex-col items-center w-full max-w-4xl reveal-on-scroll">
@@ -298,7 +299,7 @@
                     <div class="relative w-[300px] h-[300px] sm:w-[380px] sm:h-[380px] md:w-[450px] md:h-[450px] heart-mask bg-white flex flex-col items-center justify-center text-center p-3 sm:p-8 mx-auto">
                         <div class="pb-8 sm:pb-12 md:pb-16 w-full px-2">
                             <h3 class="font-serif text-[13px] sm:text-[18px] md:text-[20px] tracking-[0.1em] text-brand/90 mb-1 sm:mb-3 uppercase font-medium">Save the Date</h3>
-                            <h2 class="font-script text-[2.2rem] sm:text-[3.2rem] md:text-[4.2rem] leading-[1.1] mb-2 sm:mb-4 text-brand">Asif Weds Meraj</h2>
+                            <h2 class="font-montserrat font-medium text-[1.6rem] sm:text-[2rem] md:text-[2.6rem] leading-[1.1] mb-2 sm:mb-4 text-brand capitalize">Asif weds Meraj</h2>
                             <p class="font-serif text-[14px] sm:text-[18px] md:text-[22px] tracking-[0.05em] sm:tracking-[0.1em] text-brand/90 font-bold whitespace-nowrap">14 & 15 Nov 2026</p>
                         </div>
                         <canvas class="scratch-canvas absolute inset-0 w-full h-full cursor-pointer z-10"
@@ -369,7 +370,7 @@
             celebration will take place at</h3>
         <div class="relative w-full max-w-2xl mx-auto mb-4 md:mb-12 reveal-on-scroll delay-100">
             <a href="https://maps.app.goo.gl/NttAqetgheEbUXTTA?g_st=iw" target="_blank" class="block hover:opacity-90 transition-opacity cursor-pointer">
-                <img src="https://image2url.com/r2/default/images/1775732242768-43272ca1-ff24-4145-92af-15781c37e6ae.png" onerror="this.src='https://theatre-demo.thedigitalyes.com/assets/venue-illustration-DebdGS8I.png'"
+                <img src="https://image2url.com/r2/default/files/1775735570477-e80ce833-097b-4fbe-bbf8-d602b3e936b4.png" onerror="this.src='https://theatre-demo.thedigitalyes.com/assets/venue-illustration-DebdGS8I.png'"
                     alt="Venue Image" class="w-full h-auto rounded-xl shadow-lg opacity-95" />
             </a>
         </div>
@@ -406,13 +407,13 @@
                     class="font-serif text-[12px] md:text-[16px] leading-relaxed mb-3 md:mb-8 text-brand opacity-90 max-w-[320px]">
                     For joining us on this special day. Your presence is the best gift we could receive.
                 </p>
-                <h3 class="font-script text-[2rem] md:text-[3.2rem] leading-none text-brand capitalize">Asif & Meraj</h3>
+                <h3 class="font-montserrat font-medium text-[1.5rem] md:text-[2.2rem] leading-none text-brand capitalize">Asif & Meraj</h3>
             </div>
         </div>
     </section>
 
     <!-- Hidden Background Audio -->
-    <audio id="bg-music" loop preload="auto" autoplay>
+    <audio id="bg-music" loop preload="auto">
         <source src="https://image2url.com/r2/default/files/1775733280910-810faf42-7522-4f2d-a0ea-72d8c309d902.mp3" type="audio/mpeg">
     </audio>
 
@@ -424,7 +425,11 @@
             const introVideo = document.getElementById('intro-video');
             const mainBody = document.getElementById('main-body');
             const tapText = document.getElementById('tap-text');
+            const audio = document.getElementById('bg-music');
+            const iconMuted = document.getElementById('icon-muted');
+            const iconPlaying = document.getElementById('icon-playing');
             let introStarted = false;
+            let isPlaying = false;
 
             function triggerHeroReveal(delay) {
                 setTimeout(() => {
@@ -458,6 +463,17 @@
                 const heroNames = document.getElementById('hero-names');
                 if (heroNames) {
                     heroNames.classList.add('is-visible');
+                }
+                
+                // AUTOPLAY AUDIO HERE
+                if (!isPlaying && audio) {
+                    audio.play().then(() => {
+                        isPlaying = true;
+                        if(iconMuted) iconMuted.classList.add('hidden');
+                        if(iconPlaying) iconPlaying.classList.remove('hidden');
+                    }).catch(e => {
+                        console.log("Audio play prevented by browser:", e);
+                    });
                 }
 
                 if (introVideo) {
@@ -528,11 +544,7 @@
             });
 
             /* --- AUDIO LOGIC --- */
-            const audio = document.getElementById('bg-music');
             const audioToggle = document.getElementById('audio-toggle');
-            const iconMuted = document.getElementById('icon-muted');
-            const iconPlaying = document.getElementById('icon-playing');
-            let isPlaying = false;
 
             function toggleAudio(e) {
                 if (e) e.stopPropagation();
@@ -550,25 +562,6 @@
             }
 
             audioToggle.addEventListener('click', toggleAudio);
-
-            const startAudioOnInteraction = () => {
-                if (!isPlaying) {
-                    audio.play().then(() => {
-                        isPlaying = true;
-                        iconMuted.classList.add('hidden');
-                        iconPlaying.classList.remove('hidden');
-                    }).catch(e => {
-                        console.log("Audio play prevented by browser:", e);
-                    });
-                }
-                document.removeEventListener('click', startAudioOnInteraction);
-                document.removeEventListener('touchstart', startAudioOnInteraction);
-                document.removeEventListener('scroll', startAudioOnInteraction);
-            };
-
-            document.addEventListener('click', startAudioOnInteraction);
-            document.addEventListener('touchstart', startAudioOnInteraction, { passive: true });
-            document.addEventListener('scroll', startAudioOnInteraction, { passive: true });
 
             /* --- SCRATCH LOGIC --- */
         let completedCards = 0;
